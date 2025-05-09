@@ -41,9 +41,12 @@
             btnFocus = new Button();
             btnProfile = new Button();
             pnlLogo = new Panel();
+            pnlSubForm = new Panel();
+            label1 = new Label();
             pnlMain.SuspendLayout();
             pnlOrganize.SuspendLayout();
             pnlFocus.SuspendLayout();
+            pnlSubForm.SuspendLayout();
             SuspendLayout();
             // 
             // pnlMain
@@ -60,7 +63,7 @@
             pnlMain.Dock = DockStyle.Left;
             pnlMain.Location = new Point(0, 0);
             pnlMain.Name = "pnlMain";
-            pnlMain.Size = new Size(169, 600);
+            pnlMain.Size = new Size(169, 561);
             pnlMain.TabIndex = 0;
             // 
             // btnSetting
@@ -236,13 +239,32 @@
             pnlLogo.Size = new Size(167, 157);
             pnlLogo.TabIndex = 2;
             // 
+            // pnlSubForm
+            // 
+            pnlSubForm.Controls.Add(label1);
+            pnlSubForm.Location = new Point(169, 0);
+            pnlSubForm.Name = "pnlSubForm";
+            pnlSubForm.Size = new Size(715, 558);
+            pnlSubForm.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(146, 198);
+            label1.Name = "label1";
+            label1.Size = new Size(74, 15);
+            label1.TabIndex = 0;
+            label1.Text = "MAIN FORM";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             BackColor = Color.White;
             BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(950, 600);
+            ClientSize = new Size(884, 561);
+            Controls.Add(pnlSubForm);
             Controls.Add(pnlMain);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Name = "Form1";
@@ -250,6 +272,8 @@
             pnlMain.ResumeLayout(false);
             pnlOrganize.ResumeLayout(false);
             pnlFocus.ResumeLayout(false);
+            pnlSubForm.ResumeLayout(false);
+            pnlSubForm.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -267,5 +291,7 @@
         private Panel pnlOrganize;
         private Button btnTasks;
         private Button btnOrganize;
+        private Panel pnlSubForm;
+        private Label label1;
     }
 }
