@@ -11,6 +11,7 @@ namespace Main_Form
         private void panelDesign()
         {
             pnlFocus.Visible = false;
+            pnlOrganize.Visible = false;
         }
         //one time use to hide every panel
         private void hidePanel()
@@ -18,6 +19,22 @@ namespace Main_Form
             if (pnlFocus.Visible == true)
             {
                 pnlFocus.Visible = false;
+            }
+            if (pnlOrganize.Visible == true)
+            {
+                pnlOrganize.Visible = false;
+            }
+        }
+        private void showPanel(Panel panel)
+        {
+            if (panel.Visible == false)
+            {
+                hidePanel();
+                panel.Visible = true;
+            }
+            else
+            {
+                panel.Visible = false;
             }
         }
         private void btnProfile_Click(object sender, EventArgs e)
@@ -27,16 +44,13 @@ namespace Main_Form
 
         private void btnFocus_Click(object sender, EventArgs e)
         {
-            if (pnlFocus.Visible == false)
-            {
-                pnlFocus.Visible = true;
-            }
-            else
-            {
-                pnlFocus.Visible = false;
-            }
+            showPanel(pnlFocus);
         }
+        private void btnOrganize_Click(object sender, EventArgs e)
+        {
+            showPanel(pnlOrganize);
 
+        }
         private void btnCalendar_Click(object sender, EventArgs e)
         {
 
@@ -48,6 +62,18 @@ namespace Main_Form
         }
 
         private void btnTimer_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void btnFlashcard_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTasks_Click(object sender, EventArgs e)
         {
 
         }

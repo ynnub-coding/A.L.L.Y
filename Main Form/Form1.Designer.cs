@@ -31,7 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pnlMain = new Panel();
             btnSetting = new Button();
+            pnlOrganize = new Panel();
             btnCalendar = new Button();
+            btnTasks = new Button();
+            btnOrganize = new Button();
             pnlFocus = new Panel();
             btnFlashcard = new Button();
             btnTimer = new Button();
@@ -39,6 +42,7 @@
             btnProfile = new Button();
             pnlLogo = new Panel();
             pnlMain.SuspendLayout();
+            pnlOrganize.SuspendLayout();
             pnlFocus.SuspendLayout();
             SuspendLayout();
             // 
@@ -47,7 +51,8 @@
             pnlMain.BackColor = Color.White;
             pnlMain.BorderStyle = BorderStyle.FixedSingle;
             pnlMain.Controls.Add(btnSetting);
-            pnlMain.Controls.Add(btnCalendar);
+            pnlMain.Controls.Add(pnlOrganize);
+            pnlMain.Controls.Add(btnOrganize);
             pnlMain.Controls.Add(pnlFocus);
             pnlMain.Controls.Add(btnFocus);
             pnlMain.Controls.Add(btnProfile);
@@ -66,7 +71,7 @@
             btnSetting.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             btnSetting.Image = (Image)resources.GetObject("btnSetting.Image");
             btnSetting.ImageAlign = ContentAlignment.MiddleLeft;
-            btnSetting.Location = new Point(0, 325);
+            btnSetting.Location = new Point(0, 392);
             btnSetting.Name = "btnSetting";
             btnSetting.Padding = new Padding(20, 0, 0, 0);
             btnSetting.Size = new Size(167, 33);
@@ -74,6 +79,17 @@
             btnSetting.Text = "Settings";
             btnSetting.UseVisualStyleBackColor = true;
             btnSetting.Click += btnSetting_Click;
+            // 
+            // pnlOrganize
+            // 
+            pnlOrganize.BackColor = Color.LightGray;
+            pnlOrganize.Controls.Add(btnCalendar);
+            pnlOrganize.Controls.Add(btnTasks);
+            pnlOrganize.Dock = DockStyle.Top;
+            pnlOrganize.Location = new Point(0, 325);
+            pnlOrganize.Name = "pnlOrganize";
+            pnlOrganize.Size = new Size(167, 67);
+            pnlOrganize.TabIndex = 3;
             // 
             // btnCalendar
             // 
@@ -83,14 +99,51 @@
             btnCalendar.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
             btnCalendar.Image = Properties.Resources.calendar;
             btnCalendar.ImageAlign = ContentAlignment.MiddleLeft;
-            btnCalendar.Location = new Point(0, 292);
+            btnCalendar.Location = new Point(0, 33);
             btnCalendar.Name = "btnCalendar";
-            btnCalendar.Padding = new Padding(20, 0, 0, 0);
+            btnCalendar.Padding = new Padding(30, 0, 0, 0);
             btnCalendar.Size = new Size(167, 33);
             btnCalendar.TabIndex = 0;
             btnCalendar.Text = "Calendar";
             btnCalendar.UseVisualStyleBackColor = true;
             btnCalendar.Click += btnCalendar_Click;
+            // 
+            // btnTasks
+            // 
+            btnTasks.Dock = DockStyle.Top;
+            btnTasks.FlatAppearance.BorderColor = Color.Gray;
+            btnTasks.FlatAppearance.BorderSize = 0;
+            btnTasks.FlatStyle = FlatStyle.Flat;
+            btnTasks.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            btnTasks.Image = (Image)resources.GetObject("btnTasks.Image");
+            btnTasks.ImageAlign = ContentAlignment.MiddleLeft;
+            btnTasks.Location = new Point(0, 0);
+            btnTasks.Name = "btnTasks";
+            btnTasks.Padding = new Padding(30, 0, 0, 0);
+            btnTasks.RightToLeft = RightToLeft.No;
+            btnTasks.Size = new Size(167, 33);
+            btnTasks.TabIndex = 2;
+            btnTasks.Text = "Tasks";
+            btnTasks.UseVisualStyleBackColor = true;
+            btnTasks.Click += btnTasks_Click;
+            // 
+            // btnOrganize
+            // 
+            btnOrganize.Dock = DockStyle.Top;
+            btnOrganize.FlatAppearance.BorderColor = Color.Gray;
+            btnOrganize.FlatAppearance.BorderSize = 0;
+            btnOrganize.FlatStyle = FlatStyle.Flat;
+            btnOrganize.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            btnOrganize.Image = (Image)resources.GetObject("btnOrganize.Image");
+            btnOrganize.ImageAlign = ContentAlignment.MiddleLeft;
+            btnOrganize.Location = new Point(0, 292);
+            btnOrganize.Name = "btnOrganize";
+            btnOrganize.Padding = new Padding(20, 0, 0, 0);
+            btnOrganize.Size = new Size(167, 33);
+            btnOrganize.TabIndex = 1;
+            btnOrganize.Text = "Organize";
+            btnOrganize.UseVisualStyleBackColor = true;
+            btnOrganize.Click += btnOrganize_Click;
             // 
             // pnlFocus
             // 
@@ -119,6 +172,7 @@
             btnFlashcard.TabIndex = 0;
             btnFlashcard.Text = "Flashcards";
             btnFlashcard.UseVisualStyleBackColor = true;
+            btnFlashcard.Click += btnFlashcard_Click;
             // 
             // btnTimer
             // 
@@ -194,6 +248,7 @@
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             pnlMain.ResumeLayout(false);
+            pnlOrganize.ResumeLayout(false);
             pnlFocus.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -209,5 +264,8 @@
         private Button btnFlashcard;
         private Button btnTimer;
         private Panel pnlLogo;
+        private Panel pnlOrganize;
+        private Button btnTasks;
+        private Button btnOrganize;
     }
 }

@@ -130,6 +130,29 @@
         vaBVxOyb1sUAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="btnTasks.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wAAADsABataJCQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEpSURBVDhPhZO7
+        SgNREIY/Oy9voQiihUrwAQRLW7GxkRRiFazTmC5dyBOENBYWWtjYiGBhIYIQwSq1SG5WFhZG+WUGhpNd
+        zoEPdjg7X+ayAVgAto0VYARMjFdgEagAG8AcBecB+DXWgHvg2WgD1XDfSJN1PsMLj8ARcGCcAO/h/jpN
+        1omCH+AmxCmlAvV9buWeAn2gGegmgkvgCVhywdQSharICfS+4k0XeImafL2g9LQFFx+7YAjsAjtAxzbj
+        gxS1nECXF4aev8IqhVqKAq9oywXqSYN8AfYLSk9bmBEoedWQ5BZYDri0VKDgzRgU/HK2AvV8ZwPUMHMz
+        +LZ4PQq0AaFV5rbQM8m8AiXoUhKRlh25MoG+FX2N/6cFjMNfuIwP4NBy9oAzPfwBbySkoKNAcn8AAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="btnOrganize.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wQAADsEBuJFr7QAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEbSURBVDhPndM9
+        K8ZhFAbwX5SMFN/BZJTJQmwyKCYysLJbfAV8Ajb5AF4mJiwGpRiUlIEyEUVeOk/nX49/96Mnp666O9d1
+        nTovN61jFteJmTr5VwzgAN81HGOwLm6OHqzjo2Cu8Ilt9DUbOzCHh4KhFZ6wjM4osF8QtIu9KHBZINpF
+        ePW20Xsd1Sz6o8ARNjCEw4K4jjOMpie8TpN4xCImcVsw3mMeS6mN3EkU6MqJPmfyHGNYwxves8WRNITm
+        Nfnuaog7GMZuCr6whXFM5DtywYUmtOFpDDFWEcQLVtN0UWjhKtsLTWgj11hj/ZDusJBtxcEEVjCFm9T8
+        OqQqYp2bTeuMA5tOVMcWXGhC2zL+/ZnqEV+4+s7xtYvxA8uInedZOUyiAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="btnFlashcard.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
