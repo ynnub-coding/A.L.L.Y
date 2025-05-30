@@ -41,18 +41,22 @@
             btnFocus = new Button();
             btnProfile = new Button();
             pnlLogo = new Panel();
+            pbLogo = new PictureBox();
             pnlSubForm = new Panel();
             label1 = new Label();
+            pnlStats = new Panel();
             pnlMain.SuspendLayout();
             pnlOrganize.SuspendLayout();
             pnlFocus.SuspendLayout();
+            pnlLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pbLogo).BeginInit();
             pnlSubForm.SuspendLayout();
             SuspendLayout();
             // 
             // pnlMain
             // 
-            pnlMain.BackColor = Color.White;
-            pnlMain.BorderStyle = BorderStyle.FixedSingle;
+            pnlMain.AutoScroll = true;
+            pnlMain.BackColor = Color.WhiteSmoke;
             pnlMain.Controls.Add(btnSetting);
             pnlMain.Controls.Add(pnlOrganize);
             pnlMain.Controls.Add(btnOrganize);
@@ -62,8 +66,9 @@
             pnlMain.Controls.Add(pnlLogo);
             pnlMain.Dock = DockStyle.Left;
             pnlMain.Location = new Point(0, 0);
+            pnlMain.MinimumSize = new Size(171, 681);
             pnlMain.Name = "pnlMain";
-            pnlMain.Size = new Size(169, 561);
+            pnlMain.Size = new Size(171, 681);
             pnlMain.TabIndex = 0;
             // 
             // btnSetting
@@ -77,7 +82,7 @@
             btnSetting.Location = new Point(0, 392);
             btnSetting.Name = "btnSetting";
             btnSetting.Padding = new Padding(20, 0, 0, 0);
-            btnSetting.Size = new Size(167, 33);
+            btnSetting.Size = new Size(171, 33);
             btnSetting.TabIndex = 0;
             btnSetting.Text = "Settings";
             btnSetting.UseVisualStyleBackColor = true;
@@ -91,7 +96,7 @@
             pnlOrganize.Dock = DockStyle.Top;
             pnlOrganize.Location = new Point(0, 325);
             pnlOrganize.Name = "pnlOrganize";
-            pnlOrganize.Size = new Size(167, 67);
+            pnlOrganize.Size = new Size(171, 67);
             pnlOrganize.TabIndex = 3;
             // 
             // btnCalendar
@@ -105,7 +110,7 @@
             btnCalendar.Location = new Point(0, 33);
             btnCalendar.Name = "btnCalendar";
             btnCalendar.Padding = new Padding(30, 0, 0, 0);
-            btnCalendar.Size = new Size(167, 33);
+            btnCalendar.Size = new Size(171, 33);
             btnCalendar.TabIndex = 0;
             btnCalendar.Text = "Calendar";
             btnCalendar.UseVisualStyleBackColor = true;
@@ -124,7 +129,7 @@
             btnTasks.Name = "btnTasks";
             btnTasks.Padding = new Padding(30, 0, 0, 0);
             btnTasks.RightToLeft = RightToLeft.No;
-            btnTasks.Size = new Size(167, 33);
+            btnTasks.Size = new Size(171, 33);
             btnTasks.TabIndex = 2;
             btnTasks.Text = "Tasks";
             btnTasks.UseVisualStyleBackColor = true;
@@ -142,7 +147,7 @@
             btnOrganize.Location = new Point(0, 292);
             btnOrganize.Name = "btnOrganize";
             btnOrganize.Padding = new Padding(20, 0, 0, 0);
-            btnOrganize.Size = new Size(167, 33);
+            btnOrganize.Size = new Size(171, 33);
             btnOrganize.TabIndex = 1;
             btnOrganize.Text = "Organize";
             btnOrganize.UseVisualStyleBackColor = true;
@@ -156,7 +161,7 @@
             pnlFocus.Dock = DockStyle.Top;
             pnlFocus.Location = new Point(0, 223);
             pnlFocus.Name = "pnlFocus";
-            pnlFocus.Size = new Size(167, 69);
+            pnlFocus.Size = new Size(171, 69);
             pnlFocus.TabIndex = 1;
             // 
             // btnFlashcard
@@ -171,7 +176,7 @@
             btnFlashcard.Location = new Point(0, 33);
             btnFlashcard.Name = "btnFlashcard";
             btnFlashcard.Padding = new Padding(30, 0, 0, 0);
-            btnFlashcard.Size = new Size(167, 33);
+            btnFlashcard.Size = new Size(171, 33);
             btnFlashcard.TabIndex = 0;
             btnFlashcard.Text = "Flashcards";
             btnFlashcard.UseVisualStyleBackColor = true;
@@ -189,7 +194,7 @@
             btnTimer.Location = new Point(0, 0);
             btnTimer.Name = "btnTimer";
             btnTimer.Padding = new Padding(30, 0, 0, 0);
-            btnTimer.Size = new Size(167, 33);
+            btnTimer.Size = new Size(171, 33);
             btnTimer.TabIndex = 0;
             btnTimer.Text = "Timer";
             btnTimer.UseVisualStyleBackColor = true;
@@ -207,7 +212,7 @@
             btnFocus.Location = new Point(0, 190);
             btnFocus.Name = "btnFocus";
             btnFocus.Padding = new Padding(20, 0, 0, 0);
-            btnFocus.Size = new Size(167, 33);
+            btnFocus.Size = new Size(171, 33);
             btnFocus.TabIndex = 0;
             btnFocus.Text = "Focus";
             btnFocus.UseVisualStyleBackColor = true;
@@ -225,7 +230,7 @@
             btnProfile.Name = "btnProfile";
             btnProfile.Padding = new Padding(20, 0, 0, 0);
             btnProfile.RightToLeft = RightToLeft.No;
-            btnProfile.Size = new Size(167, 33);
+            btnProfile.Size = new Size(171, 33);
             btnProfile.TabIndex = 0;
             btnProfile.Text = "Profile";
             btnProfile.UseVisualStyleBackColor = true;
@@ -233,18 +238,31 @@
             // 
             // pnlLogo
             // 
+            pnlLogo.Controls.Add(pbLogo);
             pnlLogo.Dock = DockStyle.Top;
             pnlLogo.Location = new Point(0, 0);
             pnlLogo.Name = "pnlLogo";
-            pnlLogo.Size = new Size(167, 157);
+            pnlLogo.Size = new Size(171, 157);
             pnlLogo.TabIndex = 2;
+            // 
+            // pbLogo
+            // 
+            pbLogo.BackgroundImageLayout = ImageLayout.Center;
+            pbLogo.ErrorImage = null;
+            pbLogo.InitialImage = null;
+            pbLogo.Location = new Point(-1, 0);
+            pbLogo.Name = "pbLogo";
+            pbLogo.Size = new Size(169, 157);
+            pbLogo.TabIndex = 0;
+            pbLogo.TabStop = false;
             // 
             // pnlSubForm
             // 
             pnlSubForm.Controls.Add(label1);
             pnlSubForm.Location = new Point(169, 0);
+            pnlSubForm.MaximumSize = new Size(1096, 551);
             pnlSubForm.Name = "pnlSubForm";
-            pnlSubForm.Size = new Size(715, 558);
+            pnlSubForm.Size = new Size(1096, 551);
             pnlSubForm.TabIndex = 1;
             // 
             // label1
@@ -256,22 +274,33 @@
             label1.TabIndex = 0;
             label1.Text = "MAIN FORM";
             // 
+            // pnlStats
+            // 
+            pnlStats.BackColor = Color.Silver;
+            pnlStats.Dock = DockStyle.Bottom;
+            pnlStats.Location = new Point(171, 550);
+            pnlStats.Name = "pnlStats";
+            pnlStats.Size = new Size(1093, 131);
+            pnlStats.TabIndex = 2;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            AutoScroll = true;
             BackColor = Color.White;
             BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(884, 561);
-            Controls.Add(pnlSubForm);
+            ClientSize = new Size(1264, 681);
+            Controls.Add(pnlStats);
             Controls.Add(pnlMain);
+            Controls.Add(pnlSubForm);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             pnlMain.ResumeLayout(false);
             pnlOrganize.ResumeLayout(false);
             pnlFocus.ResumeLayout(false);
+            pnlLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pbLogo).EndInit();
             pnlSubForm.ResumeLayout(false);
             pnlSubForm.PerformLayout();
             ResumeLayout(false);
@@ -293,5 +322,7 @@
         private Button btnOrganize;
         private Panel pnlSubForm;
         private Label label1;
+        private PictureBox pbLogo;
+        private Panel pnlStats;
     }
 }

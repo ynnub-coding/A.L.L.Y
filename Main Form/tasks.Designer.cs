@@ -29,31 +29,44 @@
         private void InitializeComponent()
         {
             btnBack = new Button();
+            textBox1 = new TextBox();
             SuspendLayout();
             // 
             // btnBack
             // 
-            btnBack.Location = new Point(21, 15);
+            btnBack.BackgroundImageLayout = ImageLayout.Center;
+            btnBack.Location = new Point(1048, 12);
             btnBack.Name = "btnBack";
-            btnBack.Size = new Size(114, 39);
+            btnBack.Size = new Size(20, 23);
             btnBack.TabIndex = 0;
             btnBack.Text = "<--";
             btnBack.UseVisualStyleBackColor = true;
             btnBack.Click += btnBack_Click;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(23, 27);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(245, 23);
+            textBox1.TabIndex = 1;
+            // 
             // tasks
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(699, 519);
+            BackColor = Color.White;
+            ClientSize = new Size(1080, 512);
+            Controls.Add(textBox1);
             Controls.Add(btnBack);
             Name = "tasks";
             Text = "tasks";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btnBack;
+        private TextBox textBox1;
     }
 }

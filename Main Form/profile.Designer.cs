@@ -45,7 +45,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(699, 519);
+            ClientSize = new Size(1080, 512);
             Controls.Add(btnBack);
             Name = "profile";
             Text = "profile";
