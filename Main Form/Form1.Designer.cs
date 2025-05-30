@@ -252,7 +252,7 @@
             pbLogo.InitialImage = null;
             pbLogo.Location = new Point(-1, 0);
             pbLogo.Name = "pbLogo";
-            pbLogo.Size = new Size(169, 157);
+            pbLogo.Size = new Size(172, 157);
             pbLogo.TabIndex = 0;
             pbLogo.TabStop = false;
             // 
