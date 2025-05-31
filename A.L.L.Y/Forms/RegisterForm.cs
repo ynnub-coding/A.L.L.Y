@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using System;
 using System.Security.Cryptography;
 using System.Windows.Forms;
+using System.Reflection.Emit;
 
 namespace A.L.L.Y.Forms
 {
@@ -80,7 +81,25 @@ namespace A.L.L.Y.Forms
 
         private void RegisterForm_Load(object sender, EventArgs e)
         {
+            lblWelcome.Parent = ptbBackGround;
+            lblWelcome.BackColor = Color.Transparent;
+            lblDescription.Parent = ptbBackGround;
+            lblDescription.BackColor = Color.Transparent;
+        }
 
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ptbBackGround_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -1,0 +1,41 @@
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\bin\Debug\net8.0-windows\Main Form.exe
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\bin\Debug\net8.0-windows\Main Form.deps.json
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\bin\Debug\net8.0-windows\Main Form.runtimeconfig.json
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\bin\Debug\net8.0-windows\Main Form.dll
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\bin\Debug\net8.0-windows\Main Form.pdb
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main_Form.Form1.resources
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main Form.csproj.GenerateResource.cache
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main Form.AssemblyInfoInputs.cache
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main Form.AssemblyInfo.cs
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main Form.csproj.CoreCompileInputs.cache
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main Form.dll
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\refint\Main Form.dll
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main Form.pdb
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main Form.genruntimeconfig.cache
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\ref\Main Form.dll
+C:\Users\Jay Justine\source\repos\Main Form\Main Form\obj\Debug\net8.0-windows\Main_Form.Properties.Resources.resources
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\bin\Debug\net8.0-windows\Main Form.exe
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\bin\Debug\net8.0-windows\Main Form.deps.json
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\bin\Debug\net8.0-windows\Main Form.runtimeconfig.json
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\bin\Debug\net8.0-windows\Main Form.dll
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\bin\Debug\net8.0-windows\Main Form.pdb
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main_Form.Form1.resources
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main_Form.Properties.Resources.resources
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.csproj.GenerateResource.cache
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.AssemblyInfoInputs.cache
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.AssemblyInfo.cs
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.csproj.CoreCompileInputs.cache
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.sourcelink.json
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.dll
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\refint\Main Form.dll
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.pdb
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.genruntimeconfig.cache
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\ref\Main Form.dll
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main_Form.calendar.resources
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main_Form.flashcards.resources
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main_Form.profile.resources
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main_Form.tasks.resources
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main_Form.timer.resources
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\Main Form\obj\Debug\net8.0-windows\Main Form.csproj.AssemblyReference.cache

@@ -20,12 +20,18 @@ namespace A.L.L.Y.Forms
         public LoginForm()
         {
             InitializeComponent();
+            lblMessage.Parent = ptbBackground;
+            lblMessage.BackColor = Color.Transparent;
+            linkRegister.Parent = ptbBackground;
+            linkRegister.BackColor = Color.Transparent;
         }
 
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-
+            lblMessage.Parent = ptbBackground;
+            lblMessage.BackColor = Color.Transparent;
+            
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -57,11 +63,11 @@ namespace A.L.L.Y.Forms
                             string name = reader["Name"].ToString();
                             int userId = Convert.ToInt32(reader["UserID"]);
 
-                            Dashboard dashboard = new Dashboard(name,userId);
+                            Dashboard dashboard = new Dashboard(name, userId);
                             dashboard.Show();
                             this.Hide();
 
-                           
+
                         }
                         else
                         {
@@ -115,6 +121,11 @@ namespace A.L.L.Y.Forms
         private void lblUsername_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
