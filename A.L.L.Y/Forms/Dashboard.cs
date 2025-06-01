@@ -27,6 +27,24 @@ namespace A.L.L.Y.Forms
 
 
         }
+        //dinagdagan ko josh, eto nagbubukas ng form sa mga panel
+        private Form activeForm = null;
+        private void openSubForm(Form subform)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+            activeForm = subform;
+            subform.TopLevel = false;
+            subform.FormBorderStyle = FormBorderStyle.None;
+            subform.Dock = DockStyle.Fill;
+            panelContents.Controls.Add(subform);
+            panelContents.Tag = subform;
+            subform.BringToFront();
+            subform.Show();
+
+        }
 
         private void Dashboard_Load(object sender, EventArgs e)
         {
@@ -165,9 +183,12 @@ namespace A.L.L.Y.Forms
         }
         private void subFlashcards_Click(object sender, EventArgs e)
         {
+            openSubForm(new FlashCards());
             subNotesMenuOpen = true;
             subNotebook.Image = Properties.Resources.hollow_dot;
             subFlashcards.Image = Properties.Resources.white_dot;
+
+
         }
 
         private void SetActiveButton(Guna2Button activeBtn)

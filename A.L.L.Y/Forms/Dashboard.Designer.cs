@@ -95,7 +95,7 @@
             tlpMainContents.Name = "tlpMainContents";
             tlpMainContents.RowCount = 1;
             tlpMainContents.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tlpMainContents.Size = new Size(1146, 562);
+            tlpMainContents.Size = new Size(1004, 562);
             tlpMainContents.TabIndex = 11;
             tlpMainContents.Paint += tableLayoutPanel1_Paint;
             // 
@@ -105,7 +105,7 @@
             panelContents.Location = new Point(3, 2);
             panelContents.Margin = new Padding(3, 2, 3, 2);
             panelContents.Name = "panelContents";
-            panelContents.Size = new Size(1140, 558);
+            panelContents.Size = new Size(998, 558);
             panelContents.TabIndex = 0;
             panelContents.Paint += panelContents_Paint;
             // 
@@ -133,7 +133,7 @@
             btnAnalytics.Dock = DockStyle.Top;
             btnAnalytics.FillColor = Color.FromArgb(33, 32, 33);
             btnAnalytics.FocusedColor = Color.FromArgb(33, 32, 33);
-            btnAnalytics.Font = new Font("Palatino Linotype", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAnalytics.Font = new Font("Segoe UI", 12.75F);
             btnAnalytics.ForeColor = Color.FromArgb(195, 195, 195);
             btnAnalytics.Image = Properties.Resources.hollow_chart;
             btnAnalytics.ImageOffset = new Point(-100, 0);
@@ -177,7 +177,7 @@
             btnStudyLog.Dock = DockStyle.Top;
             btnStudyLog.FillColor = Color.FromArgb(33, 32, 33);
             btnStudyLog.FocusedColor = Color.FromArgb(33, 32, 33);
-            btnStudyLog.Font = new Font("Palatino Linotype", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnStudyLog.Font = new Font("Segoe UI", 12.75F);
             btnStudyLog.ForeColor = Color.FromArgb(195, 195, 195);
             btnStudyLog.Image = Properties.Resources.hollow_white_folder;
             btnStudyLog.ImageOffset = new Point(-100, 0);
@@ -220,7 +220,7 @@
             btnPlanner.Dock = DockStyle.Top;
             btnPlanner.FillColor = Color.FromArgb(33, 32, 33);
             btnPlanner.FocusedColor = Color.FromArgb(33, 32, 33);
-            btnPlanner.Font = new Font("Palatino Linotype", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnPlanner.Font = new Font("Segoe UI", 12.75F);
             btnPlanner.ForeColor = Color.FromArgb(195, 195, 195);
             btnPlanner.Image = Properties.Resources.hollow_calendar;
             btnPlanner.ImageOffset = new Point(-100, 0);
@@ -265,7 +265,7 @@
             subFlashcards.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             subFlashcards.FillColor = Color.FromArgb(33, 32, 33);
             subFlashcards.FocusedColor = Color.FromArgb(33, 32, 33);
-            subFlashcards.Font = new Font("Palatino Linotype", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            subFlashcards.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             subFlashcards.ForeColor = Color.FromArgb(195, 195, 195);
             subFlashcards.Image = Properties.Resources.hollow_dot;
             subFlashcards.ImageOffset = new Point(-80, 0);
@@ -290,7 +290,7 @@
             subNotebook.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             subNotebook.FillColor = Color.FromArgb(33, 32, 33);
             subNotebook.FocusedColor = Color.FromArgb(33, 32, 33);
-            subNotebook.Font = new Font("Palatino Linotype", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            subNotebook.Font = new Font("Segoe UI", 9F);
             subNotebook.ForeColor = Color.FromArgb(195, 195, 195);
             subNotebook.Image = Properties.Resources.hollow_dot;
             subNotebook.ImageOffset = new Point(-80, 0);
@@ -316,7 +316,7 @@
             btnNotes.Dock = DockStyle.Top;
             btnNotes.FillColor = Color.FromArgb(33, 32, 33);
             btnNotes.FocusedColor = Color.FromArgb(33, 32, 33);
-            btnNotes.Font = new Font("Palatino Linotype", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnNotes.Font = new Font("Segoe UI", 12.75F);
             btnNotes.ForeColor = Color.FromArgb(195, 195, 195);
             btnNotes.Image = Properties.Resources.hollow_closed_notebook;
             btnNotes.ImageOffset = new Point(-100, 0);
@@ -360,7 +360,7 @@
             btnHome.Dock = DockStyle.Top;
             btnHome.FillColor = Color.FromArgb(33, 32, 33);
             btnHome.FocusedColor = Color.FromArgb(33, 32, 33);
-            btnHome.Font = new Font("Palatino Linotype", 13F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnHome.Font = new Font("Segoe UI", 12.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnHome.ForeColor = Color.FromArgb(195, 195, 195);
             btnHome.Image = Properties.Resources.Filled_home;
             btnHome.ImageOffset = new Point(-100, 0);
@@ -429,14 +429,14 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1194, 562);
+            ClientSize = new Size(1052, 562);
             Controls.Add(tlpMainContents);
             Controls.Add(flpSidebarContainer);
             Margin = new Padding(3, 2, 3, 2);
+            MinimumSize = new Size(1068, 601);
             Name = "Dashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Test";
-            WindowState = FormWindowState.Maximized;
             Load += Dashboard_Load;
             tlpMainContents.ResumeLayout(false);
             panel9.ResumeLayout(false);

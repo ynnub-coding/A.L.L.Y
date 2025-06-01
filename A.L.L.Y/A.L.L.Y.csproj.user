@@ -7,6 +7,15 @@
     <Compile Update="Forms\AddSubject.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\FlashCards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FlashcardsCreationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\FlashQuiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

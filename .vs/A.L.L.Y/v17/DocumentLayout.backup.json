@@ -3,48 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\a.l.l.y\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|c:\\users\\jay justine\\source\\repos\\a.l.l.y (main)\\a.l.l.y\\forms\\flashcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\flashcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\a.l.l.y\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\a.l.l.y\\forms\\flashquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\flashquiz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\a.l.l.y\\forms\\tes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\tes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\a.l.l.y\\forms\\flashcardscreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\flashcardscreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|c:\\users\\jay justine\\source\\repos\\a.l.l.y (main)\\a.l.l.y\\forms\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\registerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|c:\\users\\jay justine\\source\\repos\\a.l.l.y (main)\\a.l.l.y\\forms\\flashcardscreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\flashcardscreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|c:\\users\\jay justine\\source\\repos\\a.l.l.y (main)\\a.l.l.y\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\a.l.l.y\\forms\\addsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\addsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\a.l.l.y\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|c:\\users\\jay justine\\source\\repos\\a.l.l.y (main)\\a.l.l.y\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|c:\\users\\jay justine\\source\\repos\\a.l.l.y (main)\\a.l.l.y\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|c:\\users\\jay justine\\source\\repos\\a.l.l.y (main)\\a.l.l.y\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|c:\\users\\jay justine\\source\\repos\\a.l.l.y (main)\\a.l.l.y\\forms\\addsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\addsubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\a.l.l.y\\forms\\flashcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2334886D-77AB-4CE1-8568-479909AA054C}|A.L.L.Y\\A.L.L.Y.csproj|solutionrelative:a.l.l.y\\forms\\flashcards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,39 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\LoginForm.cs [Design]",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T08:41:04.937Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\LoginForm.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\LoginForm.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\LoginForm.cs",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\LoginForm.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T09:47:25.716Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -96,116 +41,75 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\RegisterForm.Designer.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\RegisterForm.Designer.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\RegisterForm.Designer.cs*",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\RegisterForm.Designer.cs*",
-              "ViewState": "AgIAAJoAAAAAAAAAAAAnwK8AAAAmAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FlashQuiz.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashQuiz.cs",
+              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\FlashQuiz.cs",
+              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashQuiz.cs [Design]",
+              "RelativeToolTip": "A.L.L.Y\\Forms\\FlashQuiz.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T11:53:58.945Z",
+              "WhenOpened": "2025-06-01T04:45:07.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FlashCards.cs",
+              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashCards.cs",
+              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\FlashCards.cs",
+              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashCards.cs",
+              "RelativeToolTip": "A.L.L.Y\\Forms\\FlashCards.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T03:20:00.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\Main.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\Main.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\Main.cs",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\Main.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "FlashcardsCreationForm.cs",
+              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashcardsCreationForm.cs",
+              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\FlashcardsCreationForm.cs",
+              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashcardsCreationForm.cs",
+              "RelativeToolTip": "A.L.L.Y\\Forms\\FlashcardsCreationForm.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwFAAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T11:46:04.955Z",
+              "WhenOpened": "2025-05-31T18:08:32.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\RegisterForm.cs*",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\RegisterForm.cs*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowGMAAAAdAAAAAAAAAA==",
+              "Title": "FlashCards.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashCards.cs",
+              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\FlashCards.cs",
+              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashCards.cs [Design]",
+              "RelativeToolTip": "A.L.L.Y\\Forms\\FlashCards.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T07:38:11.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddSubject.cs",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\AddSubject.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\AddSubject.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\AddSubject.cs",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\AddSubject.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAcwCwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T09:27:27.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\Dashboard.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\Dashboard.cs [Design]*",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\Dashboard.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T09:26:42.654Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddSubject.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\AddSubject.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\AddSubject.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\AddSubject.cs [Design]",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\AddSubject.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T09:27:19.114Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\Main.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\Main.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\Main.cs [Design]",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T09:27:14.006Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\RegisterForm.cs [Design]*",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\RegisterForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T09:27:11.667Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-31T16:42:55.473Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Tes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\Tes.cs",
-              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\Tes.cs",
-              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\Tes.cs [Design]",
-              "RelativeToolTip": "A.L.L.Y\\Forms\\Tes.cs [Design]",
+              "Title": "FlashcardsCreationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashcardsCreationForm.cs",
+              "RelativeDocumentMoniker": "A.L.L.Y\\Forms\\FlashcardsCreationForm.cs",
+              "ToolTip": "C:\\Users\\Jay Justine\\source\\repos\\A.L.L.Y (Main)\\A.L.L.Y\\Forms\\FlashcardsCreationForm.cs [Design]",
+              "RelativeToolTip": "A.L.L.Y\\Forms\\FlashcardsCreationForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T09:27:04.119Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-31T18:03:13.182Z"
             }
           ]
         }

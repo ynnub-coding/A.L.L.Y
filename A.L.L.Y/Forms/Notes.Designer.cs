@@ -54,17 +54,20 @@
             // 
             lstNotes.Dock = DockStyle.Fill;
             lstNotes.FormattingEnabled = true;
-            lstNotes.Location = new Point(48, 103);
+            lstNotes.ItemHeight = 15;
+            lstNotes.Location = new Point(42, 77);
+            lstNotes.Margin = new Padding(3, 2, 3, 2);
             lstNotes.Name = "lstNotes";
-            lstNotes.Size = new Size(146, 576);
+            lstNotes.Size = new Size(127, 479);
             lstNotes.TabIndex = 0;
             lstNotes.SelectedIndexChanged += lstNotes_SelectedIndexChanged;
             // 
             // btnSave
             // 
-            btnSave.Location = new Point(652, 43);
+            btnSave.Location = new Point(570, 32);
+            btnSave.Margin = new Padding(3, 2, 3, 2);
             btnSave.Name = "btnSave";
-            btnSave.Size = new Size(100, 35);
+            btnSave.Size = new Size(88, 26);
             btnSave.TabIndex = 3;
             btnSave.Text = "Save";
             btnSave.Click += btnSave_Click;
@@ -72,21 +75,22 @@
             // tlpLayout
             // 
             tlpLayout.ColumnCount = 3;
-            tlpLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 45F));
-            tlpLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 152F));
+            tlpLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 39F));
+            tlpLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 133F));
             tlpLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tlpLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
+            tlpLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 18F));
             tlpLayout.Controls.Add(panel1, 2, 0);
             tlpLayout.Controls.Add(richtxtNotes, 2, 1);
             tlpLayout.Controls.Add(lstNotes, 1, 1);
             tlpLayout.Controls.Add(pbxLogo, 1, 0);
             tlpLayout.Dock = DockStyle.Fill;
             tlpLayout.Location = new Point(0, 0);
+            tlpLayout.Margin = new Padding(3, 2, 3, 2);
             tlpLayout.Name = "tlpLayout";
             tlpLayout.RowCount = 2;
-            tlpLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 100F));
+            tlpLayout.RowStyles.Add(new RowStyle(SizeType.Absolute, 75F));
             tlpLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tlpLayout.Size = new Size(1223, 682);
+            tlpLayout.Size = new Size(998, 558);
             tlpLayout.TabIndex = 5;
             tlpLayout.Paint += tableLayoutPanel1_Paint;
             // 
@@ -96,17 +100,19 @@
             panel1.Controls.Add(lblAddNote);
             panel1.Controls.Add(btnSave);
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(200, 3);
+            panel1.Location = new Point(175, 2);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1020, 94);
+            panel1.Size = new Size(820, 71);
             panel1.TabIndex = 6;
             // 
             // txtTitle
             // 
-            txtTitle.Location = new Point(319, 47);
+            txtTitle.Location = new Point(279, 35);
+            txtTitle.Margin = new Padding(3, 2, 3, 2);
             txtTitle.Name = "txtTitle";
             txtTitle.PlaceholderText = "Add new title...";
-            txtTitle.Size = new Size(266, 27);
+            txtTitle.Size = new Size(233, 23);
             txtTitle.TabIndex = 5;
             // 
             // lblAddNote
@@ -115,9 +121,9 @@
             lblAddNote.Cursor = Cursors.Hand;
             lblAddNote.Font = new Font("Segoe UI Semibold", 19.8000011F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             lblAddNote.ForeColor = SystemColors.AppWorkspace;
-            lblAddNote.Location = new Point(22, 30);
+            lblAddNote.Location = new Point(19, 22);
             lblAddNote.Name = "lblAddNote";
-            lblAddNote.Size = new Size(274, 46);
+            lblAddNote.Size = new Size(220, 37);
             lblAddNote.TabIndex = 4;
             lblAddNote.Text = "Add new Notes...";
             lblAddNote.Click += lblAddNote_Click;
@@ -126,9 +132,10 @@
             // 
             richtxtNotes.Dock = DockStyle.Fill;
             richtxtNotes.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            richtxtNotes.Location = new Point(200, 103);
+            richtxtNotes.Location = new Point(175, 77);
+            richtxtNotes.Margin = new Padding(3, 2, 3, 2);
             richtxtNotes.Name = "richtxtNotes";
-            richtxtNotes.Size = new Size(1020, 576);
+            richtxtNotes.Size = new Size(820, 479);
             richtxtNotes.TabIndex = 2;
             richtxtNotes.Text = "";
             richtxtNotes.TextChanged += richtxtNotes_TextChanged;
@@ -137,9 +144,10 @@
             // 
             pbxLogo.BackgroundImageLayout = ImageLayout.Stretch;
             pbxLogo.Dock = DockStyle.Fill;
-            pbxLogo.Location = new Point(48, 3);
+            pbxLogo.Location = new Point(42, 2);
+            pbxLogo.Margin = new Padding(3, 2, 3, 2);
             pbxLogo.Name = "pbxLogo";
-            pbxLogo.Size = new Size(146, 94);
+            pbxLogo.Size = new Size(127, 71);
             pbxLogo.TabIndex = 7;
             pbxLogo.TabStop = false;
             pbxLogo.Click += pictureBox1_Click;
@@ -155,12 +163,12 @@
             contextMenuNotes.ImageScalingSize = new Size(20, 20);
             contextMenuNotes.Items.AddRange(new ToolStripItem[] { deleteToolStripMenuItem });
             contextMenuNotes.Name = "contextMenuStrip1";
-            contextMenuNotes.Size = new Size(123, 28);
+            contextMenuNotes.Size = new Size(108, 26);
             // 
             // deleteToolStripMenuItem
             // 
             deleteToolStripMenuItem.Name = "deleteToolStripMenuItem";
-            deleteToolStripMenuItem.Size = new Size(122, 24);
+            deleteToolStripMenuItem.Size = new Size(107, 22);
             deleteToolStripMenuItem.Text = "Delete";
             // 
             // tmrNotes
@@ -168,16 +176,15 @@
             tmrNotes.Interval = 10;
             tmrNotes.Tick += tmrNotes_Tick;
             // 
-            // NoteTaking
+            // Notes
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1223, 682);
             Controls.Add(tlpLayout);
-            Name = "NoteTaking";
-          
-            Text = "NoteTaking";
-         
+            Margin = new Padding(3, 2, 3, 2);
+            MinimumSize = new Size(998, 558);
+            Name = "Notes";
+            Size = new Size(998, 558);
             Load += NoteTaking_Load;
             tlpLayout.ResumeLayout(false);
             panel1.ResumeLayout(false);

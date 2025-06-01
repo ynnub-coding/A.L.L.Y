@@ -157,3 +157,6 @@ C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\A.L.L.Y\obj\Debug\net8.0-window
 C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\A.L.L.Y\obj\Debug\net8.0-windows\A.L.L.Y.pdb
 C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\A.L.L.Y\obj\Debug\net8.0-windows\A.L.L.Y.genruntimeconfig.cache
 C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\A.L.L.Y\obj\Debug\net8.0-windows\ref\A.L.L.Y.dll
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\A.L.L.Y\bin\Debug\net8.0-windows\Resources\trim.gif
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\A.L.L.Y\obj\Debug\net8.0-windows\A.L.L.Y.Forms.FlashCards.resources
+C:\Users\Jay Justine\source\repos\A.L.L.Y (Main)\A.L.L.Y\obj\Debug\net8.0-windows\A.L.L.Y.Forms.FlashcardsCreationForm.resources
